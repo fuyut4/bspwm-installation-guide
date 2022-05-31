@@ -138,4 +138,4 @@ sudo pacman -S archlinux-wallpaper
 Lancez nitrogen.
 Cliquez sur préférences et ajouter un répertoire contenu vos fonds d'écrans. Par exemple:
 >/usr/share/backgrounds/REPERTOIRE
-Vous pouvez ajouter une option comme fill screen, qui adapte l'image à la taille de l'écran.
+Vous pouvez ajouter une option comme fill screen, qui adapte l'image à la taille de l'écran par exemple.
