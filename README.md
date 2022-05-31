@@ -42,6 +42,7 @@ vim .config/sxhkd/sxhkdrc
 ```
 
 Voilà pour moi:
+
 ![alt text](sxhkdrc_config_1.png)
 
 Maintenant on va activer lightdm, notre gestionnaire de session, dans notre systemctl de sorte à ce qu'il se lance automatiquement au lancement du système
