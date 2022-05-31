@@ -131,7 +131,7 @@ Fermez votre session.
 Ctrl + Alt + Suppr
 
 Reconnectez-vous.
-````
+```
 sudo pacman -S archlinux-wallpaper
 ```
 
