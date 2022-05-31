@@ -95,7 +95,7 @@ polybar example &
 echo "Polybar launched..."
 ```
 
-```
+```shell
 cp /usr/share/doc/polybar/examples/config.ini .
 chmod +x launch.sh
 cd
@@ -105,3 +105,37 @@ vim .config/bspwm/bspwmrc
 Ajouter cette ligne en dessous de sxhkd &:
 > $HOME/.config/polybar/launch.sh
 ![alt text](bspwmrc_config_2.png)
+
+```shell
+sudo pacman -S arandr
+```
+
+Lancez arandr
+Crée une window.sh (blue icon)
+Une fois créée, vous pouvez fermer arandr
+
+vim .xprofile
+xprofile contents:
+```shell
+# wallpaper
+nitrogen --random --set-zoom-fill &
+
+# compositor
+picom -f &
+
+# screen resolution
+xrandr --output Virtual-1 --primary --mode 1920x1080 --pos 0x0 --rotate normal
+```
+
+Fermez votre session.
+Ctrl + Alt + Suppr
+
+Reconnectez-vous.
+````
+sudo pacman -S archlinux-wallpaper
+```
+
+Lancez nitrogen.
+Cliquez sur préférences et ajouter un répertoire contenu vos fonds d'écrans. Par exemple:
+>/usr/share/backgrounds/REPERTOIRE
+Vous pouvez ajouter une option comme fill screen, qui adapte l'image à la taille de l'écran.
